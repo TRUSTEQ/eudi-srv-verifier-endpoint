@@ -11,7 +11,10 @@ the [EUDI Wallet Reference Implementation project description](https://github.co
 > issuer, wallet, and client-site apps, and for the note on why this
 > directory (the verifier *backend*) is separate from
 > [`eudi-web-verifier`](../eudi-web-verifier/) (the verifier *UI*), which
-> the compose file below builds and runs alongside it.
+> the compose file below builds and runs alongside it. See
+> [`../docs/technical/components/verifier.md`](../docs/technical/components/verifier.md)
+> for a short summary of what's customized here vs. the upstream
+> reference implementation.
 >
 > Two things in the "Run all verifier components together" section below
 > are specific to this demo and differ from a plain upstream checkout:
